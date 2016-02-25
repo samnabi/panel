@@ -2223,6 +2223,28 @@ body.rtl .topbar .breadcrumb {
   margin-bottom: 1.5em;
   line-height: 1.5em; }
 
+.marginalia.dragdrop {
+	padding: 1rem 1rem 1rem 4rem;
+	position: relative;
+	display: block;
+	border: 2px dashed #ddd;
+	border-radius: 0.3em; }
+	
+.marginalia.dragdrop:before {
+	position: absolute;
+	display: block;
+	left: 1rem;
+	top: 50%;
+	margin-top: -0.7rem;
+	font-family: 'FontAwesome';
+	font-size: 2rem;
+	content: '\f0ee';
+	color: #ddd; }
+	
+.marginalia.dragdrop:hover:before,
+.marginalia.dragdrop:focus:before {
+	color: inherit; }
+
 @media screen and (min-width: 50em) {
   .sidebar {
     position: absolute;
