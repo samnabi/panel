@@ -23,5 +23,5 @@
   <?php endforeach ?>
 </ul>
 <?php else: ?>
-<p class="marginalia"><a data-upload href="#upload" class="marginalia"><?php _l('pages.show.files.empty') ?></a></p>
+<p class="marginalia"><a data-upload href="#upload" class="marginalia dragdrop"><?php _l('pages.show.files.empty') ?></a></p>
 <?php endif ?>
